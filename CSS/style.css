@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+nav{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+nav #logo{
+    /* border: 1px solid black; */
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #list ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid green; */
+    height: 50px;
+    /* width: 250px; */
+}
+
+#list ul li{
+    list-style-type: none;
+    margin: 0 35px;
+    padding: 0 3px;
+}
+
+#list ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#list ul .visited{
+    color: orange;
+}
